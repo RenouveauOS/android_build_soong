@@ -123,6 +123,7 @@ var (
 	WarningAllowedProjects = []string{
 		"device/",
 		"vendor/",
+		"hardware/",
 	}
 
 	// Directories with warnings from Android.mk files.
