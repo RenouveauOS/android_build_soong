@@ -89,7 +89,7 @@ func findAllFilesUnder(root string) (paths []string) {
 			relPath, err := filepath.Rel(root, path)
 			if err != nil {
 				// couldn't find relative path from ancestor?
-				panic(err)
+				//panic(err)
 			}
 			paths = append(paths, relPath)
 		}
